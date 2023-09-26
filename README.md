@@ -19,6 +19,13 @@
 
 You can [create a Codespace](https://github.com/codespaces/new?machine=standardLinux32gb&repo=520445592&ref=main&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestEurope) based on this repo
 
+Once in the codespace run the following commands:
+```
+conda create -n festim-env
+source activate festim-env
+bash setup.sh
+```
+
 ### B. Local install
 
 1. Clone this repo
